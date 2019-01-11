@@ -1,0 +1,40 @@
+{
+  "name": "shortcut-capture",
+  "version": "1.0.0",
+  "description": "基于electron的截屏软件",
+  "main": "src/main.js",
+  "scripts": {
+    "dev": "electron ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lzcwds/shortcut-capture.git"
+  },
+  "author": "lzcwds",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lzcwds/shortcut-capture/issues"
+  },
+  "homepage": "https://github.com/lzcwds/shortcut-capture#readme",
+  "devDependencies": {
+    "electron": "^3.0.7",
+    "babel-core": "^6.26.0",
+    "babel-loader": "^7.1.4",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-react": "^6.24.1",
+    "clean-webpack-plugin": "^0.1.19",
+    "copy-webpack-plugin": "^4.5.2",
+    "css-loader": "^0.28.11",
+    "extract-text-webpack-plugin": "^3.0.2",
+    "file-loader": "^1.1.11",
+    "html-webpack-plugin": "^3.2.0",
+    "less": "^3.0.4",
+    "less-loader": "^4.1.0",
+    "style-loader": "^0.20.3",
+    "uglifyjs-webpack-plugin": "^1.2.7",
+    "url-loader": "^1.0.1",
+    "webpack": "^2.6.1",
+    "webpack-dev-server": "^2.11.1",
+    "webpack-merge": "^4.1.4"
+  }
+}
