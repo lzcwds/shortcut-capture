@@ -1,20 +1,21 @@
 // Modules to control application life and create native browser window
 const {app, BrowserWindow} = require('electron')
 const path = require('path')
-
+const glob = require('glob')
 let mainWindow
 
+loadDemos();
 function createWindow () {
   // Create the browser window.
   mainWindow = new BrowserWindow({
-	  width: 800,
-	  height: 600,
+	  width: 300,
+	  height: 100,
 	  // transparent:true,
 	  // frame:false
   })
 
 
-  mainWindow.loadFile(__dirname+'/index.html')
+  mainWindow.loadFile(__dirname+'/session/index.html')
 
 
   mainWindow.webContents.openDevTools()
@@ -47,3 +48,8 @@ app.on('activate', function () {
   }
 })
 
+function loadDemos () {
+	const files = glob.sync(path.join(__dirname, 'main/*.js'))
+	console.log(files)
+	files.forEach((file) => { require(file) })
+}
