@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="126px" height="70px" viewBox="0 0 126 70" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 48.2 (47327) - http://www.bohemiancoding.com/sketch -->
+    <title>Combined Shape</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <radialGradient cx="-27.7441026%" cy="50%" fx="-27.7441026%" fy="50%" r="128.351667%" gradientTransform="translate(-0.277441,0.500000),scale(0.555556,1.000000),translate(0.277441,-0.500000)" id="radialGradient-1">
+            <stop stop-color="#14B4FF" offset="0%"></stop>
+            <stop stop-color="#0A4DAA" stop-opacity="0.446105072" offset="40.2087648%"></stop>
+            <stop stop-color="#0A4094" stop-opacity="0" offset="100%"></stop>
+        </radialGradient>
+    </defs>
+    <g id="AR-1-0-搜索-Copy" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" transform="translate(-1296.000000, -858.000000)">
+        <path d="M1296,928 L1296,858 L1422,858 L1422,928 L1296,928 Z" id="Combined-Shape" fill="url(#radialGradient-1)"></path>
+    </g>
+</svg>

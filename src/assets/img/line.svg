@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="57px" height="598px" viewBox="0 0 57 598" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 48.2 (47327) - http://www.bohemiancoding.com/sketch -->
+    <title>Combined Shape Copy 12</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <radialGradient cx="0%" cy="51.0694358%" fx="0%" fy="51.0694358%" r="161.603567%" gradientTransform="translate(0.000000,0.510694),scale(1.000000,0.095318),rotate(-75.480061),translate(-0.000000,-0.510694)" id="radialGradient-1">
+            <stop stop-color="#0A8AF9" stop-opacity="0.68138587" offset="0%"></stop>
+            <stop stop-color="#0A4094" stop-opacity="0" offset="100%"></stop>
+        </radialGradient>
+    </defs>
+    <g id="AR-0-0-初始页面" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" transform="translate(-1693.000000, -211.000000)">
+        <path d="M1693.00006,509.830129 C1693.03818,397.006567 1712.06654,290.995434 1745.57016,211 L1750,212.849521 C1716.75605,292.224952 1697.83972,397.611608 1697.80161,509.830129 C1697.80155,622.175673 1716.7225,727.694949 1750,807.150479 L1745.57016,809 C1712.06654,729.004566 1693.03818,622.993433 1693.00006,510.169871 C1693,510.113246 1693,510.056622 1693.00001,510 C1693,509.943374 1693,509.886752 1693,509.830129 Z" id="Combined-Shape-Copy-12" fill="url(#radialGradient-1)" fill-rule="nonzero" transform="translate(1721.500000, 510.000000) scale(-1, 1) translate(-1721.500000, -510.000000) "></path>
+    </g>
+</svg>

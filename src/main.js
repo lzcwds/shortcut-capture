@@ -10,12 +10,10 @@ function createWindow () {
   mainWindow = new BrowserWindow({
 	  width: 300,
 	  height: 100,
-	  // transparent:true,
-	  // frame:false
   })
 
 
-  mainWindow.loadFile(__dirname+'/session/index.html')
+  mainWindow.loadFile(__dirname+'/sections/index.html')
 
 
   mainWindow.webContents.openDevTools()

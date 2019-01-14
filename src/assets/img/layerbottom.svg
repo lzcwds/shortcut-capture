@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="923px" height="61px" viewBox="0 0 923 61" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 48.2 (47327) - http://www.bohemiancoding.com/sketch -->
+    <title>Group 38</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <radialGradient cx="50%" cy="100%" fx="50%" fy="100%" r="47.0608197%" gradientTransform="translate(0.500000,1.000000),scale(0.066017,1.000000),rotate(-178.530802),translate(-0.500000,-1.000000)" id="radialGradient-1">
+            <stop stop-color="#0A8AF9" stop-opacity="0.68138587" offset="0%"></stop>
+            <stop stop-color="#0A4094" stop-opacity="0" offset="100%"></stop>
+        </radialGradient>
+        <linearGradient x1="48.2827157%" y1="80.9188413%" x2="48.2827157%" y2="0%" id="linearGradient-2">
+            <stop stop-color="#16B6FF" stop-opacity="0" offset="0%"></stop>
+            <stop stop-color="#16B6FF" stop-opacity="0.259114583" offset="100%"></stop>
+        </linearGradient>
+        <radialGradient cx="50%" cy="93.688941%" fx="50%" fy="93.688941%" r="165.904035%" gradientTransform="translate(0.500000,0.936889),scale(0.066017,1.000000),rotate(-165.065200),translate(-0.500000,-0.936889)" id="radialGradient-3">
+            <stop stop-color="#0A8AF9" stop-opacity="0.74" offset="0%"></stop>
+            <stop stop-color="#0A4DAA" stop-opacity="0.670148324" offset="30.9115794%"></stop>
+            <stop stop-color="#0A4094" stop-opacity="0" offset="100%"></stop>
+        </radialGradient>
+        <linearGradient x1="100.717232%" y1="99.9720335%" x2="0%" y2="100%" id="linearGradient-4">
+            <stop stop-color="#13ACFD" stop-opacity="0" offset="0%"></stop>
+            <stop stop-color="#16B6FF" stop-opacity="0.581380208" offset="52.347736%"></stop>
+            <stop stop-color="#13ACFD" stop-opacity="0" offset="100%"></stop>
+        </linearGradient>
+        <path d="M0,61 L0,54 L113.145837,54 C138.138502,54 162.225251,44.6412954 180.661663,27.7672912 L182.338337,26.2327088 C200.774749,9.35870463 224.861498,0 249.854163,0 L674.145837,0 C699.138502,0 723.225251,9.35870463 741.661663,26.2327088 L743.338337,27.7672912 C761.774749,44.6412954 785.861498,54 810.854163,54 L924,54 L924,61" id="path-5"></path>
+    </defs>
+    <g id="Page-2" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Group-38" transform="translate(-1.000000, 0.000000)">
+            <g id="Group-10-Copy">
+                <g id="Group-4">
+                    <path d="M0,54 L113.145837,54 C138.138502,54 162.225251,44.6412954 180.661663,27.7672912 L182.338337,26.2327088 C200.774749,9.35870463 224.861498,0 249.854163,0 L674.145837,0 C699.138502,0 723.225251,9.35870463 741.661663,26.2327088 L743.338337,27.7672912 C761.774749,44.6412954 785.861498,54 810.854163,54 L924,54 L924,61 L0,61 L0,54 Z" id="Combined-Shape" fill="url(#radialGradient-1)"></path>
+                    <path d="M0,54 L113.145837,54 C138.138502,54 162.225251,44.6412954 180.661663,27.7672912 L182.338337,26.2327088 C200.774749,9.35870463 224.861498,0 249.854163,0 L674.145837,0 C699.138502,0 723.225251,9.35870463 741.661663,26.2327088 L743.338337,27.7672912 C761.774749,44.6412954 785.861498,54 810.854163,54 L924,54 L924,61 L0,61 L0,54 Z" id="Combined-Shape-Copy-27" fill="url(#linearGradient-2)"></path>
+                    <g id="Combined-Shape-Copy-26">
+                        <use fill-opacity="0" fill="url(#radialGradient-3)" fill-rule="evenodd" xlink:href="#path-5"></use>
+                        <path stroke="url(#linearGradient-4)" stroke-width="1" d="M0.5,60.5 L923.5,60.5 L923.5,54.5 L810.854163,54.5 C785.736534,54.5 761.529352,45.0945018 743.000758,28.1361277 L741.324084,26.6015452 C722.979854,9.81191111 699.013539,0.5 674.145837,0.5 L249.854163,0.5 C224.986461,0.5 201.020146,9.81191111 182.675916,26.6015452 L180.999242,28.1361277 C162.470648,45.0945018 138.263466,54.5 113.145837,54.5 L0.5,54.5 L0.5,60.5 Z"></path>
+                    </g>
+                </g>
+                <circle id="Combined-Shape-Copy-21" fill="#16E3FF" cx="214" cy="7" r="2"></circle>
+                <circle id="Combined-Shape-Copy-28" fill="#16E3FF" cx="710" cy="7" r="2"></circle>
+            </g>
+        </g>
+    </g>
+</svg>
