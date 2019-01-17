@@ -13,16 +13,16 @@ desktopCapturer.getSources(options, (error, sources) => {
 	if (error) return console.log(error)
 
 	sources.forEach((source) => {
-		if (source.name === 'Entire screen' || source.name === 'Screen 1') {
-			const screenshotPath = path.join(os.tmpdir(), 'screenshot.png')
+		console.log(source)
+		// if (source.name === 'Entire screen' || source.name === 'Screen 1') {
+			let screenshotPath = path.join(os.tmpdir(), 'screenshot.png')
 
 			fs.writeFile(screenshotPath, source.thumbnail.toPNG(), (error) => {
 				if (error) return console.log(error)
-				shell.openExternal(`file://${screenshotPath}`)
-
-				const message = `截图保存到: ${screenshotPath}`
+				let message = `截图保存到: ${screenshotPath}`
+				console.log(message)
 			})
-		}
+		// }
 	})
 })
 

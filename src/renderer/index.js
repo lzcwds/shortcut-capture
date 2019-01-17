@@ -3,10 +3,13 @@
  *
  */
 const {ipcRenderer} = require('electron')
-// const {} = require('electron').remote
+const {getCurrentWindow,BrowserWindow} = require('electron').remote
 
 const newWindowBtn = document.getElementById('menu_add')
 
 newWindowBtn.addEventListener('click', (event) => {
-	ipcRenderer.sendSync('create-win', 'ping');
+	console.log(BrowserWindow.getAllWindows())
+	let win =getCurrentWindow();
+	// console.log(win)
+	// ipcRenderer.sendSync('create-win', 'ping');
 })

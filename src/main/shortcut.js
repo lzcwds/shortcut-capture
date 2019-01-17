@@ -11,15 +11,11 @@ ipcMain.on('create-win',function () {
 		width: 400,
 		height: 320,
 		// fullscreen:true,
-		transparent:true,
-		backgroundColor :'#FFFFFF',
-		opacity:0.2,
-		// frame:false
 	})
 	win.webContents.openDevTools()
 	win.on('close', () => { win = null })
 	win.loadURL(modalPath)
-	win.show();
+	// win.show();
 })
 ipcMain.on('win-show',function () {
 	win.show();
