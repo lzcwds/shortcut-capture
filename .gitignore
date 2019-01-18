@@ -1,0 +1,7 @@
+# dependencies
+node_modules
+out
+
+# Editor directories and files
+.idea
+.DS_Store
