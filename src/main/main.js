@@ -1,4 +1,4 @@
-import { app, BrowserWindow } from 'electron';
+import { app, BrowserWindow ,ipcMain,globalShortcut} from 'electron';
 import installExtension, { VUEJS_DEVTOOLS } from 'electron-devtools-installer';
 import { enableLiveReload } from 'electron-compile';
 
@@ -27,8 +27,34 @@ const createWindow = async () => {
     mainWindow = null;
   });
 };
-
-app.on('ready', createWindow);
+let shortcutWin =null;
+let createBlack = ()=>{
+	shortcutWin = new BrowserWindow({
+		width: 800,
+		height: 600,
+		frame:false,
+	})
+	shortcutWin.loadURL(`file://${__dirname}/../render/shortcut/shortcut.html`);
+	shortcutWin.on('closed',()=>{
+		shortcutWin = null;
+	})
+}
+ipcMain.on('start-capture',(win,data)=>{
+	console.log(data.cmd);
+	switch(data.cmd){
+		case 'start':
+			createBlack();
+			break;
+	}
+})
+app.on('ready', ()=>{
+	globalShortcut.register('Escape', () => {
+		if(shortcutWin){
+			shortcutWin.close();
+		}
+	})
+	createWindow();
+});
 
 // Quit when all windows are closed.
 app.on('window-all-closed', () => {
@@ -42,3 +68,5 @@ app.on('activate', () => {
     createWindow();
   }
 });
+
+

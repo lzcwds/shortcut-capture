@@ -1,12 +1,12 @@
 <template>
     <div>
-        <button @click="test()">新建截图</button>
+        <button @click="open()">新建截图</button>
         <h2>Hello from {{text}}</h2>
     </div>
 </template>
 
 <script>
-    import {remote} from 'electron'
+    import {remote,ipcRenderer} from 'electron'
     const {BrowserWindow} = remote
 	export default {
 		name: 'index',
@@ -16,16 +16,11 @@
 		data() {
 			return {
 				text: '',
-                win:null
 			}
 		},
 		methods:{
-			test(){
-				this.win = new BrowserWindow({
-					width: 800,
-					height: 600,
-                })
-				this.win.loadURL(`file://${__dirname}/shortcut/shortcut.html`);
+			open(){
+				ipcRenderer.send('start-capture',{cmd:'start'})
             }
         }
 	}
